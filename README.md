@@ -15,19 +15,20 @@ Dataset yang digunakan dalam project ini bersumber dari data ulasan internal tim
 ## 📁 Struktur Folder Project
 ```text
 model-experiment-assignment/
+├── venv
+├── .env
 ├── data/
 │   └── customer_reviews_sentiment.csv
 ├── notebook/
 │   └── experiment_notebook.ipynb
-├── documentation/
-│   └── model_comparison_summary.png (opsional)
+│
 ├── README.md
 └── requirements.txt
 ```
 
 ---
 
-## 🔍 Kondisi Awal Dataset
+## 🔍 Kondisi Awal Dataset dan Pembagian Data Latih
 
 Berdasarkan pemeriksaan awal (*Data Inspection*) terhadap dataset `customer_reviews_sentiment.csv`, ditemukan karakteristik dan kondisi awal sebagai berikut:
 
