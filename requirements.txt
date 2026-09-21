@@ -1,0 +1,9 @@
+# Data Manipulation & Analysis
+pandas
+numpy
+
+# Machine Learning & Evaluation
+scikit-learn
+
+# LLM API Integration
+google-genai
