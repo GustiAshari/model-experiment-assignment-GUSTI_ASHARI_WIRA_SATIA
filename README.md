@@ -126,12 +126,13 @@ Berdasarkan data eksperimen, kami merekomendasikan **Pendekatan Hibrida (Hybrid 
 1. Pastikan Anda telah menginstal **Python 3.9+** di komputer lokal Anda.
 2. Clone repository ini ke direktori lokal Anda:
    ```bash
-   git clone https://github.com
-   cd assignment-model-experiment-nama-peserta
+   git clone https://github.com/GustiAshari/model-experiment-assignment-GUSTI_ASHARI_WIRA_SATIA
+   
    ```
-3. Instal seluruh library yang dibutuhkan yang tercatat di `requirements.txt`:
-   ```bash
-   pip install -r requirements.txt
+3. Mengkonfigurasi kernel untuk menjalankan kode di notebook:
+   ```
+   select kernel dan pilih path python pada venv lalu jalankan kode di experiment_notebook.ipynb
+   
    ```
 
 ---
@@ -140,11 +141,7 @@ Berdasarkan data eksperimen, kami merekomendasikan **Pendekatan Hibrida (Hybrid 
 
 Untuk mereplikasi eksperimen dan melihat hasil tabel evaluasi, jalankan perintah berikut:
 
-1. Atur token API Key Gemini Anda ke dalam *environment variable* sistem operasi:
-   - **Linux/macOS:** `export GEMINI_API_KEY="isi_api_key_anda"`
-   - **Windows:** `set GEMINI_API_KEY="isi_api_key_anda"`
-2. Jalankan teks editor atau Jupyter Notebook:
-   ```bash
-   jupyter notebook notebook/experiment_notebook.ipynb
-   ```
-3. Eksekusi semua sel (*Run All Cells*) secara berurutan untuk melihat komparasi metrik secara langsung.
+1. Atur token API Key Gemini Anda di dalam folder *.env* :
+   - **Linux/macOS:** `my_api_key = isi_api_key_anda`
+   - **Windows:** `my_api_key = isi_api_key_anda`
+2. Eksekusi semua sel (*Run All Cells*) secara berurutan untuk melihat komparasi metrik secara langsung.
